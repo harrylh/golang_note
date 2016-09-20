@@ -9,3 +9,6 @@
 4) A slice does not store any data, it just describes a section of an underlying array.
 
    The change to a slice will influnce the relative arrays
+5) new(something) : create a 0 filled something and return a pointer to it.
+   make(something) : create a something with specified length and return something (not a pointer). make() is only used for slice/channel/map
+   
