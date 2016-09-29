@@ -8,7 +8,6 @@
 * new(something) : create a 0 filled something and return a pointer to it.  
    make(something) : create a something with specified length and return something (not a pointer). make() is only used for slice/channel/map  
 * exec.Command("/bin/sh", "-c", "pwd")  
-  *  output is "/"  
-  *  exec.Command() will fork/exec to excute 1st parm.  exec.Command("ls -al") //return could not find command
+  * exec.Command() will fork/exec to excute 1st parm.  exec.Command("ls -al") //return could not find command
   
    
